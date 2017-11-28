@@ -9,6 +9,7 @@
 //Added this comment using master
 >>>>>>> master
 
+<<<<<<< HEAD
 
 // Rebasing 
 
@@ -17,3 +18,10 @@ From Dev1
 line2 from dev1
 
 //Rebasing
+=======
+// Rebasing
+
+Line1 from master
+
+// Rebasing
+>>>>>>> added line1 in rebasing from master
