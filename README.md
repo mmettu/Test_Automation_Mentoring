@@ -25,3 +25,9 @@ Line1 from master
 
 // Rebasing
 >>>>>>> added line1 in rebasing from master
+
+// Cherry Pick
+
+Added one line 
+
+// Cherry Pick
