@@ -25,3 +25,13 @@ Line1 from master
 
 // Rebasing
 >>>>>>> added line1 in rebasing from master
+<<<<<<< HEAD
+=======
+
+// Cherry Pick
+
+Added one line 
+Added second line
+
+// Cherry Pick
+>>>>>>> 2857e77... Added second line in Cherry pick
