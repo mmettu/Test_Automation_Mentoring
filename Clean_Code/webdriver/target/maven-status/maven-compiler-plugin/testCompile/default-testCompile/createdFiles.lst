@@ -1,0 +1,5 @@
+com\epam\automation\model\User.class
+com\epam\automation\tests\Test1.class
+com\epam\automation\pages\StartPage.class
+com\epam\automation\model\HomePage.class
+com\epam\automation\pages\SignInPage.class
