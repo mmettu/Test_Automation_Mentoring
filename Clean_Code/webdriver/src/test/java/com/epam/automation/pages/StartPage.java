@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class StartPage {
 
     @FindBy(xpath = "//a[text()='Sign in']")
-    private WebElement button;
+    private WebElement signInButton;
 
     public static final String GITHUB_BASE_URL = "http://www.github.com";
     private WebDriver driver;
@@ -23,6 +23,6 @@ public class StartPage {
     }
 
     public void invokeSignIn() {
-        button.click();					
+    	signInButton.click();					
     }
 }

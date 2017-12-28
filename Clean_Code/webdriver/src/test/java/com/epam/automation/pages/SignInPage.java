@@ -1,6 +1,5 @@
 package com.epam.automation.pages;
 
-import com.epam.automation.model.HomePage;
 import com.epam.automation.model.User;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,10 +9,10 @@ import org.openqa.selenium.support.PageFactory;
 public class SignInPage {
 
     @FindBy(id = "login_field")
-    private WebElement input1;
+    private WebElement loginField;
 
     @FindBy(id = "password")
-    private WebElement input2;
+    private WebElement passwordField;
 
     @FindBy(xpath = "//input[@value='Sign in']")
     private WebElement buttonSubmit;
@@ -26,8 +25,8 @@ public class SignInPage {
     }
 
     public void signIn(String userName, String password){
-        input1.sendKeys(userName);
-        input2.sendKeys(password);
+    	loginField.sendKeys(userName);
+    	passwordField.sendKeys(password);
         buttonSubmit.click();
     }
 
