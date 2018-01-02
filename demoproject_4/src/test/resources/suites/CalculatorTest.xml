@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Demo Suite" parallel="methods" >
+     <groups> 
+	    <run> 
+		<include name="tan" /> 
+		 <!-- <include name="wait" /> --> 
+	    </run> 
+	</groups>
+    <test name="CalculatorTests">
+        <parameter name="firstNumber" value="10"></parameter>
+        <parameter name="secondNumber" value="20"></parameter>
+        <parameter name="expected" value="30"></parameter>
+        <classes>
+            <class name="com.epam.tam.demo.CalculatorTest"/>
+        </classes>
+    </test>
+
+  <!--   <test name="CalculatorTests_2">
+        <parameter name="firstNumber" value="10"></parameter>
+        <parameter name="secondNumber" value="20"></parameter>
+        <parameter name="expected" value="30"></parameter>
+        <classes>
+            <class name="com.epam.tam.demo.CalculatorTest"/>
+        </classes>
+    </test> -->
+
+</suite>
