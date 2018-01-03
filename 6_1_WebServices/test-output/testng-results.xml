@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1127" started-at="2018-01-03T12:00:11Z" finished-at="2018-01-03T12:00:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1127" started-at="2018-01-03T12:00:11Z" finished-at="2018-01-03T12:00:13Z">
+      <class name="com.epam.tam.apitest.test.RestAssuredDemo">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.epam.tam.apitest.test.RestAssuredDemo@7dc7cbad]" name="initTest" is-config="true" duration-ms="1025" started-at="2018-01-03T17:30:11Z" finished-at="2018-01-03T17:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.epam.tam.apitest.test.RestAssuredDemo@7dc7cbad]" name="checkStatusCode" duration-ms="13" started-at="2018-01-03T17:30:12Z" finished-at="2018-01-03T17:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkResponseHeader()[pri:1, instance:com.epam.tam.apitest.test.RestAssuredDemo@7dc7cbad]" name="checkResponseHeader" duration-ms="1" started-at="2018-01-03T17:30:12Z" finished-at="2018-01-03T17:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseHeader -->
+        <test-method status="PASS" signature="checkNumberOfObjects()[pri:2, instance:com.epam.tam.apitest.test.RestAssuredDemo@7dc7cbad]" name="checkNumberOfObjects" duration-ms="67" started-at="2018-01-03T17:30:12Z" finished-at="2018-01-03T17:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumberOfObjects -->
+        <test-method status="PASS" signature="printObjects()[pri:3, instance:com.epam.tam.apitest.test.RestAssuredDemo@7dc7cbad]" name="printObjects" duration-ms="4" started-at="2018-01-03T17:30:13Z" finished-at="2018-01-03T17:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printObjects -->
+      </class> <!-- com.epam.tam.apitest.test.RestAssuredDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
