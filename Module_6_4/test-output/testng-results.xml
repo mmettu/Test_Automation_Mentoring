@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27340" started-at="2018-01-17T09:08:04Z" finished-at="2018-01-17T09:08:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27340" started-at="2018-01-17T09:08:04Z" finished-at="2018-01-17T09:08:31Z">
+      <class name="com.epam.tam.module.tests.RunnerTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.tam.module.tests.RunnerTest@2c039ac6]" name="startBrowser" is-config="true" duration-ms="4858" started-at="2018-01-17T14:38:04Z" description="Start browser" finished-at="2018-01-17T14:38:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="addImplicitly()[pri:0, instance:com.epam.tam.module.tests.RunnerTest@2c039ac6]" name="addImplicitly" duration-ms="1164" started-at="2018-01-17T14:38:09Z" finished-at="2018-01-17T14:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:1, instance:com.epam.tam.module.tests.RunnerTest@2c039ac6]" name="verifyHomePage" duration-ms="7910" started-at="2018-01-17T14:38:10Z" finished-at="2018-01-17T14:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="verifyOriginValue()[pri:2, instance:com.epam.tam.module.tests.RunnerTest@2c039ac6]" name="verifyOriginValue" duration-ms="481" started-at="2018-01-17T14:38:18Z" finished-at="2018-01-17T14:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOriginValue -->
+        <test-method status="PASS" signature="verifyDestinationValueNegative()[pri:3, instance:com.epam.tam.module.tests.RunnerTest@2c039ac6]" name="verifyDestinationValueNegative" duration-ms="204" started-at="2018-01-17T14:38:18Z" finished-at="2018-01-17T14:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDestinationValueNegative -->
+        <test-method status="PASS" signature="verifyDestinationValue()[pri:4, instance:com.epam.tam.module.tests.RunnerTest@2c039ac6]" name="verifyDestinationValue" duration-ms="393" started-at="2018-01-17T14:38:19Z" finished-at="2018-01-17T14:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDestinationValue -->
+        <test-method status="PASS" signature="selectDepartureDate()[pri:5, instance:com.epam.tam.module.tests.RunnerTest@2c039ac6]" name="selectDepartureDate" duration-ms="371" started-at="2018-01-17T14:38:19Z" finished-at="2018-01-17T14:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDepartureDate -->
+        <test-method status="PASS" signature="selectReturnDate()[pri:6, instance:com.epam.tam.module.tests.RunnerTest@2c039ac6]" name="selectReturnDate" duration-ms="3243" started-at="2018-01-17T14:38:19Z" finished-at="2018-01-17T14:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectReturnDate -->
+        <test-method status="PASS" signature="verifyPassengers()[pri:7, instance:com.epam.tam.module.tests.RunnerTest@2c039ac6]" name="verifyPassengers" duration-ms="2385" started-at="2018-01-17T14:38:23Z" finished-at="2018-01-17T14:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPassengers -->
+        <test-method status="PASS" signature="verifySearchPage()[pri:8, instance:com.epam.tam.module.tests.RunnerTest@2c039ac6]" name="verifySearchPage" duration-ms="5379" started-at="2018-01-17T14:38:25Z" finished-at="2018-01-17T14:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.epam.tam.module.tests.RunnerTest@2c039ac6]" name="closeBrowser" is-config="true" duration-ms="907" started-at="2018-01-17T14:38:30Z" description="Close browser" finished-at="2018-01-17T14:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.epam.tam.module.tests.RunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

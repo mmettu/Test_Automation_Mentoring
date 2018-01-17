@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.epam.tam.module.tests.RunnerTest">
+        <methods>
+          <include name="verifyDestinationValueNegative"/>
+          <include name="verifyOriginValue"/>
+          <include name="verifySearchPage"/>
+          <include name="startBrowser"/>
+          <include name="selectReturnDate"/>
+          <include name="closeBrowser"/>
+          <include name="verifyDestinationValue"/>
+          <include name="addImplicitly"/>
+          <include name="verifyHomePage"/>
+          <include name="selectDepartureDate"/>
+          <include name="verifyPassengers"/>
+        </methods>
+      </class> <!-- com.epam.tam.module.tests.RunnerTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
