@@ -11,12 +11,6 @@ public class BaseCalculatorTest {
     public void beforeSutie(){
         System.out.println("Before Suite");
     }
-
-    @BeforeClass
-    public  void beforeClass(){
-        System.out.println("Before class");
-    }
-
     @BeforeMethod
     public void beforeMethod(){
         System.out.println("Before Method");

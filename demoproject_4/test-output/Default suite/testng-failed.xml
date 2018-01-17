@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo Suite]" parallel="methods">
-  <test thread-count="5" name="CalculatorTests(failed)" parallel="methods">
-    <parameter name="secondNumber" value="20"/>
-    <parameter name="firstNumber" value="10"/>
-    <parameter name="expected" value="30"/>
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="secondNumber" value="20"/>
+  <parameter name="firstNumber" value="10"/>
+  <parameter name="expected" value="30"/>
+  <test name="Default test(failed)">
     <classes>
       <class name="com.epam.tam.demo.CalculatorTest">
         <methods>
@@ -24,5 +24,5 @@
         </methods>
       </class> <!-- com.epam.tam.demo.CalculatorTest -->
     </classes>
-  </test> <!-- CalculatorTests(failed) -->
-</suite> <!-- Failed suite [Demo Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

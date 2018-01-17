@@ -1,192 +1,295 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
+<testng-results skipped="0" failed="7" ignored="0" total="19" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81" started-at="2018-01-02T05:48:17Z" finished-at="2018-01-02T05:48:17Z">
+  <suite name="Demo Suite" duration-ms="42" started-at="2018-01-09T10:14:59Z" finished-at="2018-01-09T10:14:59Z">
     <groups>
-      <group name="wait">
-        <method signature="CalculatorTest.waitmethod1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="waitmethod1" class="com.epam.tam.demo.CalculatorTest"/>
-        <method signature="CalculatorTest.waitmethod2()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="waitmethod2" class="com.epam.tam.demo.CalculatorTest"/>
-        <method signature="CalculatorTest.waitmethod3()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="waitmethod3" class="com.epam.tam.demo.CalculatorTest"/>
-      </group> <!-- wait -->
       <group name="Negative">
-        <method signature="CalculatorTest.divisionNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="divisionNegative" class="com.epam.tam.demo.CalculatorTest"/>
-        <method signature="CalculatorTest.negativeNumberNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="negativeNumberNegative" class="com.epam.tam.demo.CalculatorTest"/>
-        <method signature="CalculatorTest.postiveNumberNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="postiveNumberNegative" class="com.epam.tam.demo.CalculatorTest"/>
-        <method signature="CalculatorTest.powerNegative1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="powerNegative1" class="com.epam.tam.demo.CalculatorTest"/>
-        <method signature="CalculatorTest.powerNegative2()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="powerNegative2" class="com.epam.tam.demo.CalculatorTest"/>
-        <method signature="CalculatorTest.sumNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="sumNegative" class="com.epam.tam.demo.CalculatorTest"/>
+        <method signature="CalculatorTest.divisionNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="divisionNegative" class="com.epam.tam.demo.CalculatorTest"/>
+        <method signature="CalculatorTest.negativeNumberNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="negativeNumberNegative" class="com.epam.tam.demo.CalculatorTest"/>
+        <method signature="CalculatorTest.postiveNumberNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="postiveNumberNegative" class="com.epam.tam.demo.CalculatorTest"/>
+        <method signature="CalculatorTest.powerNegative1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="powerNegative1" class="com.epam.tam.demo.CalculatorTest"/>
+        <method signature="CalculatorTest.powerNegative2()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="powerNegative2" class="com.epam.tam.demo.CalculatorTest"/>
+        <method signature="CalculatorTest.sumNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="sumNegative" class="com.epam.tam.demo.CalculatorTest"/>
       </group> <!-- Negative -->
       <group name="Trig">
-        <method signature="CalculatorTest.cos1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="cos1" class="com.epam.tam.demo.CalculatorTest"/>
-        <method signature="CalculatorTest.cot()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="cot" class="com.epam.tam.demo.CalculatorTest"/>
-        <method signature="CalculatorTest.sin1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="sin1" class="com.epam.tam.demo.CalculatorTest"/>
-        <method signature="CalculatorTest.tan()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="tan" class="com.epam.tam.demo.CalculatorTest"/>
+        <method signature="CalculatorTest.cos1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="cos1" class="com.epam.tam.demo.CalculatorTest"/>
+        <method signature="CalculatorTest.cot()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="cot" class="com.epam.tam.demo.CalculatorTest"/>
+        <method signature="CalculatorTest.sin1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="sin1" class="com.epam.tam.demo.CalculatorTest"/>
+        <method signature="CalculatorTest.tan()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="tan" class="com.epam.tam.demo.CalculatorTest"/>
       </group> <!-- Trig -->
     </groups>
-    <test name="Default test" duration-ms="81" started-at="2018-01-02T05:48:17Z" finished-at="2018-01-02T05:48:17Z">
+    <test name="CalculatorTests" duration-ms="42" started-at="2018-01-09T10:14:59Z" finished-at="2018-01-09T10:14:59Z">
       <class name="com.epam.tam.demo.CalculatorTest">
-        <test-method status="PASS" signature="beforeSutie()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeSutie" is-config="true" duration-ms="16" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="beforeSutie()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeSutie" is-config="true" duration-ms="7" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSutie -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="setUp" is-config="true" duration-ms="2" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="cos1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="cos1" duration-ms="15" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="cos1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="cos1" duration-ms="2" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.707107] but found [0.8509035245341184]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.707107] but found [0.8509035245341184]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:442)at com.epam.tam.demo.CalculatorTest.cos1(CalculatorTest.java:97)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cos1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="cot()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="cot" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cot()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="cot" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cot -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="division()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="division" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="division()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="division" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- division -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="FAIL" signature="divisionNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="divisionNegative" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [-2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [-2]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:547)at org.testng.Assert.assertEquals(Assert.java:557)at com.epam.tam.demo.CalculatorTest.divisionNegative(CalculatorTest.java:35)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="expectedException()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="expectedException" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        </test-method> <!-- divisionNegative -->
+        <test-method status="PASS" signature="expectedException()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="expectedException" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[Attempt to divide by zero]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zeroat com.epam.tat.module4.Calculator.div(Calculator.java:34)at com.epam.tam.demo.CalculatorTest.expectedException(CalculatorTest.java:40)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zeroat com.epam.tat.module4.Calculator.div(Calculator.java:34)at com.epam.tam.demo.CalculatorTest.expectedException(CalculatorTest.java:40)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NumberFormatException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- expectedException -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="divisionNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="divisionNegative" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- divisionNegative -->
-        <test-method status="PASS" signature="negativeNumber()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="negativeNumber" duration-ms="16" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- negativeNumber -->
-        <test-method status="PASS" signature="multiplication()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="multiplication" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="multiplication()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="multiplication" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multiplication -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="negativeNumberNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="negativeNumberNegative" duration-ms="1" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="negativeNumberNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="negativeNumberNegative" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at org.testng.Assert.assertEquals(Assert.java:578)at com.epam.tam.demo.CalculatorTest.negativeNumberNegative(CalculatorTest.java:84)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeNumberNegative -->
-        <test-method status="PASS" signature="power()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="power" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="negativeNumber()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="negativeNumber" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeNumber -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="powerNegative1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="powerNegative1" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [8.0] but found [0.125]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [8.0] but found [0.125]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:442)at com.epam.tam.demo.CalculatorTest.powerNegative1(CalculatorTest.java:59)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerNegative1 -->
+        <test-method status="PASS" signature="power()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="power" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- power -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="postiveNumber()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="postiveNumber" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postiveNumber -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="FAIL" signature="postiveNumberNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="postiveNumberNegative" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at org.testng.Assert.assertEquals(Assert.java:578)at com.epam.tam.demo.CalculatorTest.postiveNumberNegative(CalculatorTest.java:75)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        </test-method> <!-- postiveNumberNegative -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="sum(long, long, long)[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="sum" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="FAIL" signature="powerNegative2()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="powerNegative2" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [8.0] but found [-8.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [8.0] but found [-8.0]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:442)at com.epam.tam.demo.CalculatorTest.powerNegative2(CalculatorTest.java:65)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerNegative2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="sumNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="sumNegative" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumNegative -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="sin1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="sin1" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.707107] but found [0.8509035245341184]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.707107] but found [0.8509035245341184]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:442)at com.epam.tam.demo.CalculatorTest.sin1(CalculatorTest.java:109)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)at java.lang.Thread.run(Thread.java:748)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sin1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tan()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="tan" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tan -->
+        <test-method status="PASS" signature="sum(long, long, long)[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="sum" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <params>
             <param index="0">
               <value>
@@ -207,140 +310,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="powerNegative1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="powerNegative1" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- powerNegative1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="postiveNumber()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="postiveNumber" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postiveNumber -->
-        <test-method status="PASS" signature="powerNegative2()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="powerNegative2" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- powerNegative2 -->
-        <test-method status="PASS" signature="sin1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="sin1" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sin1 -->
-        <test-method status="PASS" signature="postiveNumberNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="postiveNumberNegative" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postiveNumberNegative -->
-        <test-method status="PASS" signature="waitmethod3()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="waitmethod3" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitmethod3 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="waitmethod1()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="waitmethod1" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitmethod1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="sumNegative()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="sumNegative" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sumNegative -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="tan()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="tan" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tan -->
-        <test-method status="PASS" signature="sumOfNumbers(long, long, long)[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="sumOfNumbers" duration-ms="0" started-at="2018-01-02T11:18:17Z" data-provider="numbersProvider" finished-at="2018-01-02T11:18:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[-5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sumOfNumbers -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="waitmethod2()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="waitmethod2" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitmethod2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="sumOfNumbers(long, long, long)[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="sumOfNumbers" duration-ms="0" started-at="2018-01-02T11:18:17Z" data-provider="numbersProvider" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="sumOfNumbers(long, long, long)[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="sumOfNumbers" duration-ms="0" started-at="2018-01-09T15:44:59Z" data-provider="numbersProvider" finished-at="2018-01-09T15:44:59Z">
           <params>
             <param index="0">
               <value>
@@ -361,15 +335,56 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumOfNumbers -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.epam.tam.demo.CalculatorTest@51efea79]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-01-02T11:18:17Z" finished-at="2018-01-02T11:18:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="sumOfNumbers(long, long, long)[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="sumOfNumbers" duration-ms="0" started-at="2018-01-09T15:44:59Z" data-provider="numbersProvider" finished-at="2018-01-09T15:44:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumOfNumbers -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.epam.tam.demo.CalculatorTest@5f8ed237]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-01-09T15:44:59Z" finished-at="2018-01-09T15:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.epam.tam.demo.CalculatorTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- CalculatorTests -->
+  </suite> <!-- Demo Suite -->
+  <suite name="Calculator" duration-ms="0" started-at="2018-01-09T10:14:59Z" finished-at="2018-01-09T10:14:59Z">
+    <groups>
+    </groups>
+  </suite> <!-- Calculator -->
 </testng-results>

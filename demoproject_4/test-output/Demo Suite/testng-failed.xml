@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Demo Suite]">
-  <test name="CalculatorTests(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo Suite]" parallel="methods">
+  <test thread-count="5" name="CalculatorTests(failed)" parallel="methods">
     <parameter name="secondNumber" value="20"/>
     <parameter name="firstNumber" value="10"/>
     <parameter name="expected" value="30"/>
-    <groups>
-      <run>
-        <include name="tan"/>
-      </run>
-    </groups>
     <classes>
       <class name="com.epam.tam.demo.CalculatorTest">
         <methods>
+          <include name="afterClass"/>
+          <include name="sin1"/>
+          <include name="divisionNegative"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+          <include name="powerNegative2"/>
+          <include name="beforeSutie"/>
+          <include name="beforeMethod"/>
           <include name="cos1"/>
+          <include name="postiveNumberNegative"/>
+          <include name="negativeNumberNegative"/>
+          <include name="afterMethod"/>
+          <include name="powerNegative1"/>
         </methods>
       </class> <!-- com.epam.tam.demo.CalculatorTest -->
     </classes>

@@ -2,7 +2,7 @@
 <suite name="Demo Suite" parallel="methods" >
      <groups> 
 	    <run> 
-		<include name="tan" /> 
+		<include name="Trig" /> 
 		 <!-- <include name="wait" /> --> 
 	    </run> 
 	</groups>

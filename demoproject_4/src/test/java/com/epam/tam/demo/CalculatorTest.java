@@ -18,7 +18,7 @@ public class CalculatorTest extends BaseCalculatorTest{
     public void sumNegative() {
         long result = calculator.sum(1, -2);
         System.out.println("Sum of two numbers is "+result);
-        Assert.assertEquals(result, -1);
+        Assert.assertEquals(result, -1); // Will return -1 but we are expecting +1 so it will fail
     }
     
     @Test
@@ -32,12 +32,12 @@ public class CalculatorTest extends BaseCalculatorTest{
     public void divisionNegative() {
         long result = calculator.div(10, -5);
         System.out.println("Division of 10 with -5 is "+result);
-        Assert.assertEquals(result, -2);
+        Assert.assertEquals(result, 2); // will return -2 but we are expecting +2
     }
     @Test(expectedExceptions =NumberFormatException.class)
     public void expectedException() {
     	System.out.println("Handling exception method");
-        long result = calculator.div(5, 0);
+        System.out.println(calculator.div(5, 0));
     }
     
     @Test
@@ -56,13 +56,13 @@ public class CalculatorTest extends BaseCalculatorTest{
     public void powerNegative1() {
         double result = calculator.pow(2, -3);
         System.out.println("2 power 3 is "+result);
-        Assert.assertEquals(result, 0.125);
+        Assert.assertEquals(result, 8.0); // Will return 0.125 but expecting 8
     }
     @Test(groups = {"Negative"})
     public void powerNegative2() {
         double result = calculator.pow(-2, 3);
         System.out.println("2 power 3 is "+result);
-        Assert.assertEquals(result, -8.0);
+        Assert.assertEquals(result, 8.0); // Will return -8.0 but expected is 8.0
     }
     
     @Test
@@ -72,7 +72,7 @@ public class CalculatorTest extends BaseCalculatorTest{
     @Test(groups = {"Negative"})
     public void postiveNumberNegative() { 
     	System.out.println("isPositive should return False");
-        Assert.assertEquals(false, calculator.isPositive(-10));
+        Assert.assertEquals(true, calculator.isPositive(-10)); //It will return false but expected is true
   }
     @Test
     public void negativeNumber() {   
@@ -81,83 +81,56 @@ public class CalculatorTest extends BaseCalculatorTest{
     @Test(groups = {"Negative"})
     public void negativeNumberNegative() {   
     		System.out.println("isNagtive should return False");
-          Assert.assertEquals(false, calculator.isNegative(10));
+          Assert.assertEquals(true, calculator.isNegative(10)); //It will return false but expected is true
     }
     
-    @Test(groups = {"wait"})
-    public void waitmethod1(){
-    	try {
-    		System.out.println("In wait methode1 waiting");
-			calculator.wait();
-			System.out.println("In wait methode waiting done");
-		} catch (Exception e) {
-			System.out.println(e);
-		}
-    }
-    
-    @Test(groups = {"wait"})
-    public void waitmethod2(){
-    
-    		System.out.println("In wait methode2 waiting");
-			try {
-				calculator.wait(10);
-				System.out.println("In wait methode waiting done");
-			} catch (Exception e) {
-				System.out.println(e);
-			}
-    }
-    
-    @Test(groups = {"wait"})
-    public void waitmethod3(){
-    
-    		System.out.println("In wait methode2 waiting");
-			try {
-				calculator.wait(10,1);
-				System.out.println("In wait methode waiting done");
-			} catch (Exception e) {
-				System.out.println(e);
-			}
-    }
-    
-    @Test(groups={"Trig"})
+   @Test(groups={"Trig"})
     public void cos1(){
     	double degree=45;
+    	double result=0;
     	try{
-    	System.out.println(calculator.cos(degree));
+    	result =calculator.cos(degree);
     	}
     	catch (Exception e){
     		System.out.println(e);
     	}
+    	Assert.assertEquals(result, 0.707107);
     }
     @Test(groups={"Trig"})
     public void sin1(){
     	double degree=45;
+    	double result=0;
     	try{
-    	System.out.println(calculator.sin(degree));
+    	result =calculator.sin(degree);
     	}
     	catch (Exception e){
     		System.out.println(e);
     	}
+    	Assert.assertEquals(result, 0.707107);
     }
     @Test(groups={"Trig"})
     public void tan(){
     	double degree=45;
+    	double result=0;
     	try{
-    	System.out.println(calculator.sin(degree));
+    	result =calculator.tg(degree);
     	}
     	catch (Exception e){
     		System.out.println(e);
     	}
+    	Assert.assertEquals(result, 1.00);
     }
     @Test(groups={"Trig"})
     public void cot(){
     	double degree=45;
+    	double result=0.00;
     	try{
-    	System.out.println(calculator.ctg(degree));
+    	result =calculator.ctg(degree);
     	}
     	catch (Exception e){
     		System.out.println(e);
     	}
+    	Assert.assertEquals(result, 1.00);
     }
 
     @Test(dataProvider = "numbersProvider")
