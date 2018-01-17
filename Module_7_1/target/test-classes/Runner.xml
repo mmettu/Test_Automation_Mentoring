@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DefaultSuite" verbose="1">
+    <test name="All-tests">
+        <packages>
+            <package name="com.epam.tam.module.tests"/>
+        </packages>
+    </test>
+    <listeners>
+       <listener class-name="com.epam.tam.module.configurations.CustomListener"/>
+  </listeners>
+</suite>

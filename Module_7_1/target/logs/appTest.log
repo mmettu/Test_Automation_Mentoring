@@ -1,0 +1,20 @@
+2018-01-17 16:30:07,978 INFO  [main] *****The name of the testcase Started is :addImplicitly
+2018-01-17 16:30:09,440 INFO  [main] *****The name of the testcase Passed is :addImplicitly
+2018-01-17 16:30:18,871 INFO  [main] *****The name of the testcase Started is :verifyHomePage
+2018-01-17 16:30:19,314 INFO  [main] Successfully opened home page
+2018-01-17 16:30:19,350 INFO  [main] *****The name of the testcase Failed is :verifyHomePage
+2018-01-17 16:30:19,714 INFO  [main] *****The name of the testcase Started is :verifyOriginValue
+2018-01-17 16:30:20,407 INFO  [main] Successfully entered Origin country in home page
+2018-01-17 16:30:20,633 INFO  [main] *****The name of the testcase Passed is :verifyOriginValue
+2018-01-17 16:30:21,029 INFO  [main] *****The name of the testcase Started is :verifyDestinationValueNegative
+2018-01-17 16:30:21,531 INFO  [main] *****The name of the testcase Passed is :verifyDestinationValueNegative
+2018-01-17 16:30:21,866 INFO  [main] *****The name of the testcase Started is :verifyDestinationValue
+2018-01-17 16:30:22,518 INFO  [main] *****The name of the testcase Passed is :verifyDestinationValue
+2018-01-17 16:30:22,911 INFO  [main] *****The name of the testcase Started is :selectDepartureDate
+2018-01-17 16:30:23,482 INFO  [main] *****The name of the testcase Passed is :selectDepartureDate
+2018-01-17 16:30:23,821 INFO  [main] *****The name of the testcase Started is :selectReturnDate
+2018-01-17 16:30:27,382 INFO  [main] *****The name of the testcase Passed is :selectReturnDate
+2018-01-17 16:30:27,688 INFO  [main] *****The name of the testcase Started is :verifyPassengers
+2018-01-17 16:30:30,249 INFO  [main] *****The name of the testcase Passed is :verifyPassengers
+2018-01-17 16:30:30,649 INFO  [main] *****The name of the testcase Started is :verifySearchPage
+2018-01-17 16:30:39,026 INFO  [main] *****The name of the testcase Passed is :verifySearchPage
